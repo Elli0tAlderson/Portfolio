@@ -1,0 +1,215 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  header nav{ 
+    top: 30px;
+    width: 300px;
+    height: 75px;
+  }
+
+  header nav a{
+    font-size: 1rem;
+    padding: 0px 10px;
+  }
+
+  header nav button{
+    width: 45px;
+    height: 45px;
+  }
+
+  header nav button span{
+    width: 40%;
+    margin: 7px auto;
+  }
+
+  header.sticky nav {
+    top: 25px;
+    padding: 0;
+    width: 75px;
+    height: 75px;
+    transition-delay: 0.5s;
+  }
+
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact
+  {
+    height: 50vh;
+    margin-bottom: 3rem;
+  }
+  footer{
+    height: 30vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 1rem;
+  }
+  footer p{ 
+    font-size: 1rem;
+  }
+  .about-containers{
+    margin-top: 30px;
+  }
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p {
+    font-size: 1rem;
+  }
+  .nav-links li a{
+    font-size: 1.2rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+  }
+  .profile_text{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+  .experience_text, 
+  .projects_text, 
+  .contact_text{
+    font-size: 1.25rem;
+  }
+
+  .title1{
+    font-size: 3rem;
+  }
+
+  .title2, .title3, .title4, .title5 {
+    font-size: 2rem;
+  }
+
+  #socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+  }
+
+  .details-container h3{
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .details-container p{
+    font-size: 0.7rem;
+  }
+
+  .article-container h3{
+    font-size: 1.1rem;
+  }
+
+  .article-container p{
+    font-size: 1rem;
+  }
+
+  .article-container article{
+    margin: -10px 0px;
+  }
+
+  .text-container p{
+    margin: 0px 10px;
+    text-align: center;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .project-title{
+    font-size: 1rem;
+    margin: auto;
+  }
+
+  .p-container{
+    margin: auto;
+    padding: auto;
+  }
+
+  .color-container{
+    padding: 5px;
+  }
+
+  .color-container .btn-container{
+    margin: 25px 0px 15px 0px;
+  }
+
+  .color-container .btn-container button{
+    text-align: center;
+    margin: 0px 10px;
+    font-size: 0.75rem;
+  }
+
+  .contact-info-container img{
+    height:30px;
+    width: 30px;
+  }
+
+  .contact-info-container{
+    padding: 10px 20px;
+  }
+
+  .text-container {
+    text-align: justify;
+  }
+}
